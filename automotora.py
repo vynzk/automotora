@@ -6,5 +6,9 @@ class Automotora:
     def agregarAuto(dueño,patente):
         listaAutos.append(Auto(dueño,patente))
 
+    def mostrarInformacion():
+        print("Soy la automotora ",nombre)
+    
+
 
     
